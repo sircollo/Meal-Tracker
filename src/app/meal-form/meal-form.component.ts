@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// import { Meal } from '../meal';
 @Component({
   selector: 'app-meal-form',
   templateUrl: './meal-form.component.html',
@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MealFormComponent implements OnInit {
 
+
+  submitMeal(){
+    // this.addMeal.emit
+  }
   constructor() { }
 
   ngOnInit(): void {
